@@ -42,7 +42,11 @@ const Product = () => {
 
     {
         title: 'Chair',
+<<<<<<< HEAD
         image: '/src/assets/product_1.png',
+=======
+        image: 'src/assets/product_1.png',
+>>>>>>> 73e225d919aa996944d30ec6ea13bac338b2ae40
         description:'Sankaris ArmChair',
         price: 222,
         rating: 4.9,
@@ -50,7 +54,11 @@ const Product = () => {
     },
     {
         title: 'Chair',
+<<<<<<< HEAD
         image: '/src/assets/product_2.png',
+=======
+        image: 'src/assets/product_2.png',
+>>>>>>> 73e225d919aa996944d30ec6ea13bac338b2ae40
         description:'baltsar Chair',
         price: 222,
         rating: 4.5,
@@ -233,4 +241,8 @@ const Product = () => {
   )
 }
 
+<<<<<<< HEAD
 export default Product
+=======
+export default Product
+>>>>>>> 73e225d919aa996944d30ec6ea13bac338b2ae40
