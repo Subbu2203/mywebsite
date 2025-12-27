@@ -42,7 +42,7 @@ const Product = () => {
 
     {
         title: 'Chair',
-        image: '/public/product_1.png',
+        image: 'product_1.png',
         description:'Sankaris ArmChair',
         price: 222,
         rating: 4.9,
@@ -50,7 +50,7 @@ const Product = () => {
     },
     {
         title: 'Chair',
-        image: '/public/product_2.png',
+        image: 'product_2.png',
         description:'baltsar Chair',
         price: 222,
         rating: 4.5,
@@ -59,7 +59,7 @@ const Product = () => {
 
     {
         title: 'Chair',
-        image: 'public/product_3.png',
+        image: 'product_3.png',
         description:'Anjoy Chair',
         price: 222,
         rating: 4.5,
@@ -67,7 +67,7 @@ const Product = () => {
     },
     {
         title: 'Chair',
-        image: 'public/product_4.png',
+        image: 'product_4.png',
         description:'Nyantuy Chair',
         price: 222,
         rating: 4.5,
@@ -75,7 +75,7 @@ const Product = () => {
     },
     {
         title: 'Chair',
-        image: '/product_1.png',
+        image: 'product_1.png',
         description:'Nyantuy Chair',
         price: 222,
         rating: 4.5,
@@ -86,7 +86,7 @@ const Product = () => {
 
     {
         title: 'bed',
-        image: 'public/product_4.png',
+        image: 'product_4.png',
         description:'Sankaris ArmChair',
         price: 222,
         rating: 4.9,
@@ -94,7 +94,7 @@ const Product = () => {
     },
     {
         title: 'bed',
-        image: 'public/product_3.png',
+        image: 'product_3.png',
         description:'baltsar Chair',
         price: 222,
         rating: 4.5,
