@@ -17,7 +17,7 @@ const Product = () => {
 
   const products = [
     // Chair
-    { title: "Chair", image: process.env.PUBLIC_URL + "/product_1.png", description: "Sankaris ArmChair", price: 222, rating: 4.9, category: "chair" },
+    { title: "Chair", image: process.env.PUBLIC_URL + "/mywebsite/product_1.png", description: "Sankaris ArmChair", price: 222, rating: 4.9, category: "chair" },
     { title: "Chair", image: process.env.PUBLIC_URL + "/product_2.png", description: "Baltsar Chair", price: 222, rating: 4.5, category: "chair" },
     { title: "Chair", image: process.env.PUBLIC_URL + "/product_3.png", description: "Anjoy Chair", price: 222, rating: 4.5, category: "chair" },
     { title: "Chair", image: process.env.PUBLIC_URL + "/product_4.png", description: "Nyantuy Chair", price: 222, rating: 4.5, category: "chair" },

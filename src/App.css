@@ -7,27 +7,27 @@
   font-family: 'Gilroy-Bold';
   font-style: normal;
   font-weight: normal;
-  src: local('Gilroy-Bold'), url('Gilroy-Bold.ttf') format('truetype');
+  src: local('Gilroy-Bold'), url('/mywebsite/Gilroy-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Gilroy-Medium';
   font-style: normal;
   font-weight: normal;
-  src: local('Gilroy-Medium'), url('Gilroy-Medium.ttf') format('truetype');
+  src: local('Gilroy-Medium'), url('/mywebsite/Gilroy-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Gilroy-Light';
   font-style: normal;
   font-weight: normal;
-  src: local('Gilroy-Light'), url('Gilroy-Light.ttf') format('truetype');
+  src: local('Gilroy-Light'), url('/mywebsite/Gilroy-Regular.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Gilroy-Regular';
   font-style: normal;
   font-weight: normal;
-  src: local('Gilroy-Regular'), url('Gilroy-Regular.ttf') format('truetype');
+  src: local('Gilroy-Regular'), url('/mywebsite/Gilroy-Regular.ttf') format('truetype');
 }
 
 
