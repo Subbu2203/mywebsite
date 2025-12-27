@@ -42,7 +42,7 @@ const Product = () => {
 
     {
         title: 'Chair',
-        image: '/assets/product_1.png',
+        image: 'src/assets/product_1.png',
         description:'Sankaris ArmChair',
         price: 222,
         rating: 4.9,
@@ -50,7 +50,7 @@ const Product = () => {
     },
     {
         title: 'Chair',
-        image: '/assets/product_2.png',
+        image: 'src/assets/product_2.png',
         description:'baltsar Chair',
         price: 222,
         rating: 4.5,
