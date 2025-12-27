@@ -1,31 +1,22 @@
-
-import { BrowserRouter, Route, Routes } from 'react-router'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import Home from './pages/Home/Home'
 import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer'
 
 function App() {
-
   return (
-    <>
+    <BrowserRouter basename="/mywebsite">
+      {/* Navbar */}
+      <Navbar />
 
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
 
-      <BrowserRouter>
-
-        {/* {navbar component} */}
-        <Navbar />
-        <Routes>
-
-          <Route path='/' element={<Home />}></Route>
-
-        </Routes>
-
-        {/* {Footer component} */}
-        <Footer />
-      </BrowserRouter>
-
-    </>
+      {/* Footer */}
+      <Footer />
+    </BrowserRouter>
   )
 }
 
