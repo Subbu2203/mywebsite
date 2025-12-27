@@ -42,7 +42,7 @@ const Product = () => {
 
     {
         title: 'Chair',
-        image: 'product_1.png',
+        image: 'assets/product_1.png/',
         description:'Sankaris ArmChair',
         price: 222,
         rating: 4.9,
