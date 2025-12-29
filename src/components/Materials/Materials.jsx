@@ -19,12 +19,12 @@ const Materials = () => {
 
         <div className="flex items-center gap-6">
            <div className="flex flex-col gap-4">
-              <img className="max-w-[300px] min-h-[300px] rounded-lg  w-full h-full object-cover" src="/materials_1.png" alt="" />
-              <img className="max-w-[250px] min-h-[300px] rounded-lg  w-full h-full object-cover" src="/materials_2.png" alt="" />
+              <img className="max-w-[300px] min-h-[300px] rounded-lg  w-full h-full object-cover" src="/mywebsite/materials_1.png" alt="" />
+              <img className="max-w-[250px] min-h-[300px] rounded-lg  w-full h-full object-cover" src="/mywebsite/materials_2.png" alt="" />
 
            </div>
            <div>
-            <img className="max-w-[620px] w-full min-h-[480px] h-full object-cover rounded-xl" src="/materials_3.png" alt="" />
+            <img className="max-w-[620px] w-full min-h-[480px] h-full object-cover rounded-xl" src="/mywebsite/materials_3.png" alt="" />
            </div>
 
         </div>
