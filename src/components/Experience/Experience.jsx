@@ -9,7 +9,7 @@ const Experience = () => {
 
         <div className="max-w-[630px] w-full h-auto">
 
-          <img src="/experiences.png" alt="experience image" className='object-cover rounded-l-2xl w-auto h-auto' />
+          <img src="/mywebsite/experiences.png" alt="experience image" className='object-cover rounded-l-2xl w-auto h-auto' />
         </div>
 
 

@@ -15,25 +15,25 @@ const Product = () => {
     { id: 3, category: "lamp" },
   ];
 const products = [
-  { title: "Chair", image: "/product_1.png", description: "Sankaris ArmChair", price: 222, rating: 4.9, category: "chair" },
-  { title: "Chair", image: "/product_2.png", description: "Baltsar Chair", price: 222, rating: 4.5, category: "chair" },
-  { title: "Chair", image: "/product_3.png", description: "Anjoy Chair", price: 222, rating: 4.5, category: "chair" },
-  { title: "Chair", image: "/product_4.png", description: "Nyantuy Chair", price: 222, rating: 4.5, category: "chair" },
+  { title: "Chair", image: "/mywebsite/product_1.png", description: "Sankaris ArmChair", price: 222, rating: 4.9, category: "chair" },
+  { title: "Chair", image: "/mywebsite/product_2.png", description: "Baltsar Chair", price: 222, rating: 4.5, category: "chair" },
+  { title: "Chair", image: "/mywebsite/product_3.png", description: "Anjoy Chair", price: 222, rating: 4.5, category: "chair" },
+  { title: "Chair", image: "/mywebsite/product_4.png", description: "Nyantuy Chair", price: 222, rating: 4.5, category: "chair" },
 
-  { title: "Bed", image: "/product_4.png", description: "Sankaris ArmChair", price: 222, rating: 4.9, category: "bed" },
-  { title: "Bed", image: "/product_3.png", description: "Baltsar Chair", price: 222, rating: 4.5, category: "bed" },
-  { title: "Bed", image: "/product_2.png", description: "Anjoy Chair", price: 222, rating: 4.5, category: "bed" },
-  { title: "Bed", image: "/product_1.png", description: "Nyantuy Chair", price: 222, rating: 4.5, category: "bed" },
+  { title: "Bed", image: "/mywebsite/product_4.png", description: "Sankaris ArmChair", price: 222, rating: 4.9, category: "bed" },
+  { title: "Bed", image: "/mywebsite/product_3.png", description: "Baltsar Chair", price: 222, rating: 4.5, category: "bed" },
+  { title: "Bed", image: "/mywebsite/product_2.png", description: "Anjoy Chair", price: 222, rating: 4.5, category: "bed" },
+  { title: "Bed", image: "/mywebsite/product_1.png", description: "Nyantuy Chair", price: 222, rating: 4.5, category: "bed" },
 
-  { title: "Sofa", image: "/product_1.png", description: "Sankaris ArmChair", price: 222, rating: 4.9, category: "sofa" },
-  { title: "Sofa", image: "/product_2.png", description: "Baltsar Chair", price: 222, rating: 4.5, category: "sofa" },
-  { title: "Sofa", image: "/product_3.png", description: "Anjoy Chair", price: 222, rating: 4.5, category: "sofa" },
-  { title: "Sofa", image: "/product_4.png", description: "Nyantuy Chair", price: 222, rating: 4.5, category: "sofa" },
+  { title: "Sofa", image: "/mywebsite/product_1.png", description: "Sankaris ArmChair", price: 222, rating: 4.9, category: "sofa" },
+  { title: "Sofa", image: "/mywebsite/product_2.png", description: "Baltsar Chair", price: 222, rating: 4.5, category: "sofa" },
+  { title: "Sofa", image: "/mywebsite/product_3.png", description: "Anjoy Chair", price: 222, rating: 4.5, category: "sofa" },
+  { title: "Sofa", image: "/mywebsite/product_4.png", description: "Nyantuy Chair", price: 222, rating: 4.5, category: "sofa" },
 
-  { title: "Lamp", image: "/product_4.png", description: "Sankaris ArmChair", price: 222, rating: 4.9, category: "lamp" },
-  { title: "Lamp", image: "/product_3.png", description: "Baltsar Chair", price: 222, rating: 4.5, category: "lamp" },
-  { title: "Lamp", image: "/product_2.png", description: "Anjoy Chair", price: 222, rating: 4.5, category: "lamp" },
-  { title: "Lamp", image: "/product_1.png", description: "Nyantuy Chair", price: 222, rating: 4.5, category: "lamp" },
+  { title: "Lamp", image: "/mywebsite/product_4.png", description: "Sankaris ArmChair", price: 222, rating: 4.9, category: "lamp" },
+  { title: "Lamp", image: "/mywebsite/product_3.png", description: "Baltsar Chair", price: 222, rating: 4.5, category: "lamp" },
+  { title: "Lamp", image: "/mywebsite/product_2.png", description: "Anjoy Chair", price: 222, rating: 4.5, category: "lamp" },
+  { title: "Lamp", image: "/mywebsite/product_1.png", description: "Nyantuy Chair", price: 222, rating: 4.5, category: "lamp" },
 ];
 
 
