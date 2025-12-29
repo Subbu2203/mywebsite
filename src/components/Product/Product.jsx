@@ -14,32 +14,28 @@ const Product = () => {
     { id: 2, category: "bed" },
     { id: 3, category: "lamp" },
   ];
+const products = [
+  { title: "Chair", image: "/product_1.png", description: "Sankaris ArmChair", price: 222, rating: 4.9, category: "chair" },
+  { title: "Chair", image: "/product_2.png", description: "Baltsar Chair", price: 222, rating: 4.5, category: "chair" },
+  { title: "Chair", image: "/product_3.png", description: "Anjoy Chair", price: 222, rating: 4.5, category: "chair" },
+  { title: "Chair", image: "/product_4.png", description: "Nyantuy Chair", price: 222, rating: 4.5, category: "chair" },
 
-  const products = [
-    // Chair
-    { title: "Chair", image: process.env.PUBLIC_URL + "/mywebsite/product_1.png", description: "Sankaris ArmChair", price: 222, rating: 4.9, category: "chair" },
-    { title: "Chair", image: process.env.PUBLIC_URL + "/product_2.png", description: "Baltsar Chair", price: 222, rating: 4.5, category: "chair" },
-    { title: "Chair", image: process.env.PUBLIC_URL + "/product_3.png", description: "Anjoy Chair", price: 222, rating: 4.5, category: "chair" },
-    { title: "Chair", image: process.env.PUBLIC_URL + "/product_4.png", description: "Nyantuy Chair", price: 222, rating: 4.5, category: "chair" },
+  { title: "Bed", image: "/product_4.png", description: "Sankaris ArmChair", price: 222, rating: 4.9, category: "bed" },
+  { title: "Bed", image: "/product_3.png", description: "Baltsar Chair", price: 222, rating: 4.5, category: "bed" },
+  { title: "Bed", image: "/product_2.png", description: "Anjoy Chair", price: 222, rating: 4.5, category: "bed" },
+  { title: "Bed", image: "/product_1.png", description: "Nyantuy Chair", price: 222, rating: 4.5, category: "bed" },
 
-    // Bed
-    { title: "Bed", image: process.env.PUBLIC_URL + "/product_4.png", description: "Sankaris ArmChair", price: 222, rating: 4.9, category: "bed" },
-    { title: "Bed", image: process.env.PUBLIC_URL + "/product_3.png", description: "Baltsar Chair", price: 222, rating: 4.5, category: "bed" },
-    { title: "Bed", image: process.env.PUBLIC_URL + "/product_2.png", description: "Anjoy Chair", price: 222, rating: 4.5, category: "bed" },
-    { title: "Bed", image: process.env.PUBLIC_URL + "/product_1.png", description: "Nyantuy Chair", price: 222, rating: 4.5, category: "bed" },
+  { title: "Sofa", image: "/product_1.png", description: "Sankaris ArmChair", price: 222, rating: 4.9, category: "sofa" },
+  { title: "Sofa", image: "/product_2.png", description: "Baltsar Chair", price: 222, rating: 4.5, category: "sofa" },
+  { title: "Sofa", image: "/product_3.png", description: "Anjoy Chair", price: 222, rating: 4.5, category: "sofa" },
+  { title: "Sofa", image: "/product_4.png", description: "Nyantuy Chair", price: 222, rating: 4.5, category: "sofa" },
 
-    // Sofa
-    { title: "Sofa", image: process.env.PUBLIC_URL + "/product_1.png", description: "Sankaris ArmChair", price: 222, rating: 4.9, category: "sofa" },
-    { title: "Sofa", image: process.env.PUBLIC_URL + "/product_2.png", description: "Baltsar Chair", price: 222, rating: 4.5, category: "sofa" },
-    { title: "Sofa", image: process.env.PUBLIC_URL + "/product_3.png", description: "Anjoy Chair", price: 222, rating: 4.5, category: "sofa" },
-    { title: "Sofa", image: process.env.PUBLIC_URL + "/product_4.png", description: "Nyantuy Chair", price: 222, rating: 4.5, category: "sofa" },
+  { title: "Lamp", image: "/product_4.png", description: "Sankaris ArmChair", price: 222, rating: 4.9, category: "lamp" },
+  { title: "Lamp", image: "/product_3.png", description: "Baltsar Chair", price: 222, rating: 4.5, category: "lamp" },
+  { title: "Lamp", image: "/product_2.png", description: "Anjoy Chair", price: 222, rating: 4.5, category: "lamp" },
+  { title: "Lamp", image: "/product_1.png", description: "Nyantuy Chair", price: 222, rating: 4.5, category: "lamp" },
+];
 
-    // Lamp
-    { title: "Lamp", image: process.env.PUBLIC_URL + "/product_4.png", description: "Sankaris ArmChair", price: 222, rating: 4.9, category: "lamp" },
-    { title: "Lamp", image: process.env.PUBLIC_URL + "/product_3.png", description: "Baltsar Chair", price: 222, rating: 4.5, category: "lamp" },
-    { title: "Lamp", image: process.env.PUBLIC_URL + "/product_2.png", description: "Anjoy Chair", price: 222, rating: 4.5, category: "lamp" },
-    { title: "Lamp", image: process.env.PUBLIC_URL + "/product_1.png", description: "Nyantuy Chair", price: 222, rating: 4.5, category: "lamp" },
-  ];
 
   const filteredProducts = products.filter(
     (item) => item.category === active.category
